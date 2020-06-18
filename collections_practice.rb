@@ -20,13 +20,9 @@ def reverse_array(numbers)
 end
 
 def kesha_maker(words)
-  kesha = []
   words.each do |word|
-    tiktok = word
-    tiktok[2] = "$"
-    kesha << tiktok
+    word[2] = "$"
   end
-  kesha
 end
 
 def find_a(words)
